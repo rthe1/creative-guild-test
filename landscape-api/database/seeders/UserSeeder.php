@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\User;
 use Illuminate\Database\Seeder;
+
 
 class UserSeeder extends Seeder
 {
@@ -13,13 +15,13 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        App\User::create([
+        \DB::table('users')->insert([
             'id' => '1',
             'name' => 'Nick Reynolds',
             'phone' => '5555555555',
             'email' => 'nick.reynolds@domain.co',
             'bio' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            'profile_picture' => 'img/profile.jpg',
+            'img' => 'img/profile.jpg',
         ]);
     }
 }

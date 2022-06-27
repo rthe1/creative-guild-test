@@ -19,7 +19,6 @@ class CreateUsersTable extends Migration
             $table->string('phone')->unique();
             $table->string('email')->unique();
             $table->longText('bio');
-            $table->string('password');
             $table->string('img', 255);
         });
     }
