@@ -15,7 +15,7 @@ class AlbumsSeeder extends Seeder
     {
 
 
-        \DB::table('album')->insert((
+        \DB::table('albums')->insert((
             [
             ['id' => '01', 'user_id' => '1', 'title' => 'Nandhaka Pieris', 'description' => 'Lorem Ipsum', 'img' => 'img/landscape1.jpg', 'created_at' => '2015-05-01','featured' => 'true'],
             ['id' => '02', 'user_id' => '1', 'title' => 'New West Calgary', 'description' => 'Lorem Ipsum', 'img' => 'img/landscape2.jpg', 'created_at' => '2016-05-01','featured' => 'true'],
