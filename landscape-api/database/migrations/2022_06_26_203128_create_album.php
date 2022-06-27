@@ -15,6 +15,7 @@ class CreateAlbum extends Migration
     {
         Schema::create('album', function (Blueprint $table) {
             $table->id();
+            $table->integer('user_id');
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->string('title');
             $table->longText('description');
