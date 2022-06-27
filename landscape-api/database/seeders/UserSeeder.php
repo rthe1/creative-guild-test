@@ -14,11 +14,12 @@ class UserSeeder extends Seeder
     public function run()
     {
         App\User::create([
-            'name' => 'A New Hope',
-            'phone' => 'A New Hope',
-            'email' => 'A New Hope',
-            'bio' => 'A New Hope',
-            'profile_picture' => 'A New Hope',
+            'id' => '1',
+            'name' => 'Nick Reynolds',
+            'phone' => '5555555555',
+            'email' => 'nick.reynolds@domain.co',
+            'bio' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'profile_picture' => 'img/profile.jpg',
         ]);
     }
 }
