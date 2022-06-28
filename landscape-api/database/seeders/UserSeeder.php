@@ -21,7 +21,7 @@ class UserSeeder extends Seeder
             'phone' => '5555555555',
             'email' => 'nick.reynolds@domain.co',
             'bio' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            'img' => 'img/profile.jpg',
+            'img' => 'img/profile.jpeg',
         ]);
     }
 }
