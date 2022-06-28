@@ -1,3 +1,14 @@
+# Install Dependencies
+composer install
+
+# Run Migrations
+php artisan migrate
+
+# Import Articles
+php artisan db:seed
+
+
+
 FRONT END
 
 1. Create Bio Component
@@ -7,4 +18,5 @@ FRONT END
 BACK END 
 
 1. Build Landscape Migration
-2. 
+2. Build Landscape Seeds
+3. Connect Database 
